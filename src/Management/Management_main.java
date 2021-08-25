@@ -8,10 +8,14 @@ public class Management_main {
 	public static void main(String[] args) {
 		Scanner pulls =new Scanner(System.in);
 <<<<<<< HEAD
+<<<<<<< HEAD
 		Center cen =new Center();
 =======
 		Center cen =new Center();	
 >>>>>>> c70a10f969385c13be106c30a574b6627ae4b24b
+=======
+		Center cen =new Center();	
+>>>>>>> jinsung
 		KJHStudent kjh =new KJHStudent();
 		YsshinStudent yss =new YsshinStudent();
 		JSBaking jsb =new JSBaking();
