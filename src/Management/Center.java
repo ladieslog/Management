@@ -14,7 +14,7 @@ public class Center {
 		while(true) {
 			System.out.println("보기설정해주세요 ");
 			System.out.print("1.모든사람 보기(arr) 2.주민등록(arraylist)"
-					+ "3.모든사람보기(hash) 4.주민등록(hashmap) 5.나가기 \n선택 : ");
+					+ "3.골라서보기(hash) 4.주민등록(hashmap) 5.나가기 \n선택 : ");
 			a=pulls.nextInt();
 			switch(a) {
 			case 1: poe.display_Arr(); break;
