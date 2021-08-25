@@ -2,6 +2,8 @@ package Management;
 
 import java.util.Scanner;
 
+import YsshinStudent.YsshinStudent;
+
 public class Management_main {
 	public static void main(String[] args) {
 		Scanner pulls =new Scanner(System.in);
