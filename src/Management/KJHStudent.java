@@ -18,7 +18,7 @@ public class KJHStudent {
 	/* */
 
 	public KJHStudent() {
-		// list, map 초깃값 설정
+		// list 초깃값 설정
 		list.add("출석");
 		list.add("출석");
 		list.add("출석");
@@ -29,6 +29,7 @@ public class KJHStudent {
 		list.add("결석");
 		list.add("출석");
 		
+		// map 초깃값 설정
 		map.put("국어", 68);
 		map.put("수학", 74);
 		map.put("영어", 51);
