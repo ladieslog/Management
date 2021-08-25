@@ -5,9 +5,8 @@ import java.util.Scanner;
 public class Management_main {
 	public static void main(String[] args) {
 		Scanner pulls =new Scanner(System.in);
-		Center cen =new Center();
-		
-		KJHSudent kjh =new KJHSudent();
+		Center cen =new Center();	
+		KJHStudent kjh =new KJHStudent();
 		YsshinStudent yss =new YsshinStudent();
 		JSBaking jsb =new JSBaking();
 		SJHStudent sjh =new SJHStudent();
