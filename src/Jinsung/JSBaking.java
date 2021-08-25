@@ -208,10 +208,5 @@ public class JSBaking {
 			}
 		}
 
-	
-	
-	public static void main(String[] args) {
-		JSBaking ex = new JSBaking();
-		ex.bakingStart();
-	}
+
 }
