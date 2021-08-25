@@ -1,39 +1,8 @@
 package Management;
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.Scanner;
 
-class information{
-	private String name;
-	private int num=0;
-	private int age;
-	private int tel;
-	
-	public String getName() {
-		return name;
-	}
-	public void setName(String name) {
-		this.name = name;
-	}
-	public int getNum() {
-		return num;
-	}
-	public void setNum() {
-		this.num +=1;
-	}
-	public int getAge() {
-		return age;
-	}
-	public void setAge(int age) {
-		this.age = age;
-	}
-	public int getTel() {
-		return tel;
-	}
-	public void setTel(int tel) {
-		this.tel = tel;
-	}
-}
+
 
 class People_Arr {
 	Scanner pulls =new Scanner(System.in);
@@ -51,6 +20,7 @@ class People_Arr {
 		n2=pulls.nextInt();
 		System.out.print("전화번호를 입력해주세요: ");
 		n3=pulls.nextInt();
+		
 		
 		infom.setName(n1); infom.setAge(n2); 
 		infom.setTel(n3); infom.setNum();
