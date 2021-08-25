@@ -4,13 +4,14 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class SJHStudent {
-	public static void main(String[] args) {
+	public void management () { 
 		Scanner input = new Scanner(System.in);
 		
 		ArrayList<SJHStudentInfo> arr = new ArrayList<SJHStudentInfo>();
 		String name;
 		int age; 
 		int phN;
+		
 		/*
 		ArrayList<String> str = new ArrayList<String>();
 		String s = "Test";
@@ -47,6 +48,6 @@ public class SJHStudent {
 				break;
 			}
 		}
-	}
+}
 }
 
