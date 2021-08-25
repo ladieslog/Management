@@ -6,11 +6,11 @@ public class Management_main {
 	public static void main(String[] args) {
 		Scanner pulls =new Scanner(System.in);
 		Center cen =new Center();
-		/*
+		
 		KJHSudent kjh =new KJHSudent();
 		YsshinStudent yss =new YsshinStudent();
 		JSBaking jsb =new JSBaking();
-		SJHStudent sjh =new SJHStudent();*/
+		SJHStudent sjh =new SJHStudent();
 		
 		int a;
 		
@@ -21,17 +21,13 @@ public class Management_main {
 			case 1:	System.out.println("김성윤 코드로 ");
 			cen.manage(); break;
 			case 2: System.out.println("김준호 코드로 ");
-			//kjh.management();
-			break;
+			kjh.management();break;
 			case 3: System.out.println("김진성 코드로 ");
-			//jsb.bakingStart();
-			break;
+			jsb.bakingStart();break;
 			case 4: System.out.println("송지현 코드로 ");
-			//sjh.management();
-			break;
+			sjh.management();break;
 			case 5: System.out.println("신윤수 코드로 ");
-			//yss.management(); 
-			break;
+			yss.management(); break;
 			case 0: System.out.println("시스템이 종료됩니다. "); return ;
 			default : System.out.println("없는 번호입니다. 재입력 ");
 			}
